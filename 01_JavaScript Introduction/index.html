@@ -1,16 +1,42 @@
 <!DOCTYPE html>
+<!-- DOCTYPE tells the browser this is an HTML5 document -->
+
 <html lang="en">
+<!-- The <html> tag wraps the entire page. lang="en" means the page is in English -->
+
 <head>
+    <!-- The <head> section contains settings and info about the page (not visible to users) -->
+
     <meta charset="UTF-8">
+    <!-- charset="UTF-8" supports all characters including special symbols and emojis -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This makes the page look good on mobile phones and tablets -->
+
     <title>JavaScript Introduction</title>
+    <!-- This text appears on the browser tab -->
+
 </head>
+
 <body>
+    <!-- The <body> section contains everything visible on the webpage -->
+
     <div class="container">
+        <!-- <div> is a box/section used to group elements together -->
+        <!-- class="container" is used to style or target this div with CSS or JS -->
+
         <div class="box">Hey i am a Box
+        <!-- Another div with class "box" — displays text on the page -->
         </div>
+
+        <!-- A clickable button on the page -->
         <button>Submit</button>
+
     </div>
+
+    <!-- Link to the external JavaScript file (script.js) -->
+    <!-- Placed at the bottom so HTML loads first, then JS runs -->
     <script src="script.js"></script>
+
 </body>
 </html>

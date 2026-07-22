@@ -1,0 +1,31 @@
+console.log("This is String Tutorial");
+ let a = "SaadkamalShaikhkamal";
+ let d ="tukonhy"
+ console.log(a);
+ console.log(a[4]);
+ console.log(a[4]);
+ console.log(a[4]);
+ console.log(a[10]);
+ console.log(a[9]);
+ console.log(a[8]);
+ console.log(a[19]);
+ console.log(a[1]);
+ console.log(a[2]);
+ console.log(a[3]);
+ console.log(a[5]);
+ console.log(a[6]);
+ console.log(a[7]);
+  console.log(a.toUpperCase());
+  console.log(a.endsWith("mal"));
+  console.log(a.toLowerCase());
+  console.log(a.length);
+  console.log(a.slice(2 ,12));
+  console.log(a.slice(2));
+  console.log(a.trim());
+  console.log(a);
+  console.log(a.concat(d, "Heloo", "world"));
+  console.log(a.replace("kamal" ,"noo56"));
+  let realName = "Saad";
+  let friend = "Huzaifa";
+  console.log("His Name is" + realName + " and  His Friend Name is " + friend );
+  console.log(`His Name is ${realName} and his Friend name is ${friend}`)
